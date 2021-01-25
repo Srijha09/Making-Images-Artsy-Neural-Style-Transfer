@@ -9,7 +9,7 @@ I have also incorporated a Flask Application deployed on Heroku Cloud.
 
 ![Uploaded images](images/Capture1.PNG)
 
-![Results](images/Capture2.PNG) | ![Results](images/Capture3.PNG)
+![Results](images/Capture2.PNG) |                                                         ![Results](images/Capture3.PNG)
 
 
 
