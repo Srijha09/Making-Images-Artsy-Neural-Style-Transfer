@@ -3,7 +3,13 @@ The whole idea of editing images and making them more creative by merging with t
 The principle is simple: we define two distances, one for the content (DC) and one for the style (DS). DC measures how different the content is between two images while DS measures how different the style is between two images. Then, we take a third image, the input, and transform it to minimize both its content-distance with the content-image and its style-distance with the style-image. Now we can import the necessary packages and begin the neural transfer.
 
 I have taken the help of Pytorch Neural Style Transfer: https://pytorch.org/tutorials/advanced/neural_style_tutorial.html and idea from the paper https://arxiv.org/abs/1508.06576
-I have also incorporated a Flask Application deployed on Heroku Cloud
+I have also incorporated a Flask Application deployed on Heroku Cloud.
+
+![Homepage of the Flask Application](images/Capture.PNG)
+
+![Uploaded images](images/Capture1.PNG)
+
+![Results](images/Capture2.PNG)
 
 
 
