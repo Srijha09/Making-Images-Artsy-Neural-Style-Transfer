@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <link rel='stylesheet' type='text/css' href="/static/css/style.css" >
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Want to make an image more Artsy?</title>
+    </head>
+    <body>
+        <div class='container'>
+            <h2 class='message'>
+                Want to make an Image more Artsy?
+            </h2>
+            <div class='upload-pane'>
+               <form method="POST" action="{{url_for('upload')}}" enctype=multipart/form-data>
+                    <p class="message">Upload Content Image</p>
+                    <input type="file" name="content">
+                    <p class="message">Upload Style Image</p>
+                    <input type="file" name="style">
+                    <br/>
+                <input type="submit" value="Upload">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
